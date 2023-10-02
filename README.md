@@ -1,4 +1,4 @@
-# CrowdSpaceDetector
+# SegSpaceDetector
 
 Efficient Graph-based image segmentation and free spot detection in crowded scenes without Deep Learning.
 <p align="center">
