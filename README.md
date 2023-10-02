@@ -51,5 +51,15 @@ To use SegSpaceDetector, you'll need to follow these installation steps:
    ```shell
    ./spaceDetector
    ```
+## Contributing
+
+If you have any ideas for improvements, new features, or encounter issues while using the software, please point it out opening an issue. Here's how you can contribute:
+
+1. **Open an Issue:**
+   If you have an idea for an enhancement, a feature request, or you've encountered a bug or any unexpected behavior, please open an issue on our [GitHub repository](https://github.com/DaniAffCH/SegSpaceDetector/issues). Be sure to provide a clear and detailed description of your suggestion or the issue you're facing.
+
+2. **Submit a Pull Request (PR):**
+   If want to contribute directly by implementing new features or fixing existing issues, you can submit a pull request.
+   
 ## Acknowledgments
 The image semantic segmentation is partially based [Graph-Based-Image-Segmentation](https://github.com/IamMohitM/Graph-Based-Image-Segmentation) 
