@@ -72,4 +72,6 @@ The image semantic segmentation is partially based on the paper [Efficient Graph
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
+
+You can find the full text of the license in the [LICENSE](LICENSE) file included with this repository.
