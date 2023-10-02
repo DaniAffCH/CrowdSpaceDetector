@@ -12,10 +12,12 @@ Efficient Graph-based image segmentation and free spot detection in crowded scen
 
 - **Graph-based Semantic Segmentation:** Utilize advanced graph-based algorithms to perform semantic segmentation on RGB-D images, allowing you to separate objects and regions in the scene efficiently.
 
-- **Largest Free Area Detection:** Identify and locate the largest free area within the segmented image. This feature is particularly useful for applications involving crowd or space management.
+- **Largest Free Area Detection:** Identify and locate the largest free area within the segmented image. Additionally, this feature generates a heatmap of the image, where the pixel values represent the distance to the nearest obstacle. This feature is particularly useful for applications involving crowd or space management.
 
 - **Computational Efficiency:** Designed with computational efficiency in mind, making it well-suited for real-time or resource-constrained applications, such as robotic systems.
 
+## Constraint
+The only constraint for this algorithm to work is that the plane should occupy the majority of the image, indeed the algorithm will consider as a plane, the largest semantic class. 
 
 ## Prerequisites 
 - OpenCV
