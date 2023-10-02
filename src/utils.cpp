@@ -181,10 +181,9 @@ cv::Mat addHeatmap(cv::Mat originalImage, uMatrix heat)
     {
         for (int j = 0; j < heat[0].size(); ++j)
         {
-            cv::Point topLeft(j, i);
-            cv::Point bottomRight(j + 1, i + 1);
+            cv::Point point(j, i);
             color = heatMapToRGB(maxValue, heat[i][j]);
-            cv::rectangle(overlay, topLeft, bottomRight, color, cv::FILLED);
+            cv::circle(overlay, point, 0, color, cv::FILLED);
         }
     }
 

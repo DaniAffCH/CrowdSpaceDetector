@@ -19,15 +19,11 @@ int main(int argc, char *argv[])
 
     std::pair<int, int> spot = spotLocator(i, rgbImage.cols, rgbImage.rows, rgbImage);
 
-    cv::Point topLeft(spot.second, spot.first);
-    cv::Point bottomRight(spot.second + 1, spot.first + 1);
-
-    cv::Scalar color(0, 255, 0);
-    int thickness = 2;
-
-    cv::rectangle(rgbImage, topLeft, bottomRight, color, thickness);
-
 #ifdef DEBUG
+    cv::Point point(spot.second, spot.first);
+    cv::Scalar color(0, 255, 0);
+    int thickness = 3;
+    cv::circle(rgbImage, point, thickness, color, cv::FILLED);
     cv::imshow("Heatmap", rgbImage);
     cv::waitKey(0);
 #endif
