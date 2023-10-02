@@ -10,7 +10,7 @@ Efficient Graph-based image segmentation and free spot detection in crowded scen
 
 ## Features
 
-- **Graph-based Semantic Segmentation:** Utilize advanced graph-based algorithms to perform semantic segmentation on RGB-D images, allowing you to separate objects and regions in the scene efficiently.
+- **Graph-based Semantic Segmentation:** Utilize advanced graph-based algorithms to perform semantic segmentation on RGB-D images, allowing you to separate objects and regions in the scene efficiently. The implementation is based on 
 
 - **Largest Free Area Detection:** Identify and locate the largest free area within the segmented image. Additionally, this feature generates a heatmap of the image, where the pixel values represent the distance to the nearest obstacle. This feature is particularly useful for applications involving crowd or space management.
 
@@ -68,7 +68,7 @@ If you have any ideas for improvements, new features, or encounter issues while 
    If want to contribute directly by implementing new features or fixing existing issues, you can submit a pull request.
    
 ## Acknowledgments
-The image semantic segmentation is partially based on [Graph-Based-Image-Segmentation](https://github.com/IamMohitM/Graph-Based-Image-Segmentation) 
+The image semantic segmentation is partially based on the paper [Efficient Graph-Based Image Segmentation](https://cs.brown.edu/people/pfelzens/papers/seg-ijcv.pdf) and [its implementation](https://github.com/IamMohitM/Graph-Based-Image-Segmentation) 
 
 ## License
 
