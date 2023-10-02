@@ -66,4 +66,8 @@ If you have any ideas for improvements, new features, or encounter issues while 
    If want to contribute directly by implementing new features or fixing existing issues, you can submit a pull request.
    
 ## Acknowledgments
-The image semantic segmentation is partially based [Graph-Based-Image-Segmentation](https://github.com/IamMohitM/Graph-Based-Image-Segmentation) 
+The image semantic segmentation is partially based on [Graph-Based-Image-Segmentation](https://github.com/IamMohitM/Graph-Based-Image-Segmentation) 
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
